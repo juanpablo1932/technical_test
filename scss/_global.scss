@@ -3,3 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.prueba {
+  background: linear-gradient(
+    180deg,
+    #e5efff 0%,
+    rgba(229, 239, 255, 0.262661) 83.7%,
+    rgba(229, 239, 255, 0) 100%
+  );
+  // height: 1188px;
+}

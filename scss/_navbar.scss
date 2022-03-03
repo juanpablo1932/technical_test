@@ -1,3 +1,62 @@
-.prueba {
-  color: $primaryColor;
+.navbar {
+  font-size: 14px;
+}
+
+.navbar--position {
+  position: absolute;
+  margin: 0 3%;
+  left: 0;
+  right: 0;
+}
+
+.navbar-brand {
+  padding-top: 6px;
+  img {
+    width: 7rem;
+  }
+}
+
+.collapse--justify {
+  justify-content: space-between;
+  .navbar-nav {
+    margin-left: 5rem;
+  }
+}
+
+.nav-item .nav-link {
+  color: $secondColor !important;
+  font-weight: bolder !important;
+}
+
+.collapse__login {
+  .collapse__login-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: $secondColor;
+    margin-bottom: 0;
+    .nav-item {
+      align-content: center;
+      display: flex;
+      .nav-btn {
+        background-color: $primaryColor;
+        border: solid;
+        border-color: $primaryColor;
+        border-radius: 3px;
+        color: white;
+        font-weight: bold;
+        padding: 4px;
+      }
+      .nav-icon {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        margin-left: 0.8rem;
+
+        .fa-search {
+          color: $secondColor;
+        }
+      }
+    }
+  }
 }
