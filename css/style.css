@@ -6,10 +6,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-}
-
-.prueba {
   background: linear-gradient(180deg, #e5efff 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
+  background-repeat: no-repeat;
 }
 
 .navbar {
@@ -21,6 +19,7 @@ body {
   margin: 0 3%;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 .navbar-brand {
@@ -70,6 +69,95 @@ body {
 }
 .collapse__login .collapse__login-list .nav-item .nav-icon .fa-search {
   color: #272d4e;
+}
+
+.presentation__background {
+  background-image: url("../assets/img/Vector.svg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.presentation__content {
+  padding-top: 7rem;
+  display: flex;
+  margin-left: 12%;
+}
+.presentation__content-text {
+  width: 50%;
+  padding-top: 4rem;
+  min-width: 50%;
+}
+.presentation__content-title {
+  font-family: "Circular Std", sans-serif;
+  color: #272d4e;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.presentation__content-description {
+  color: #94a2b3;
+  font-weight: 400;
+}
+.presentation__content-cards {
+  display: flex;
+}
+.presentation__content-cards--imgs .imgPoint-1 {
+  width: 170px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.presentation__content-cards--imgs .imgPoint-2 {
+  width: 370px;
+  position: absolute;
+  top: 13rem;
+  right: 11rem;
+}
+.presentation__content-cards--imgs .imgPoint-3 {
+  width: 170px;
+  position: absolute;
+  top: 6rem;
+  right: 8rem;
+}
+.presentation__content-cards--imgs .imgProduct-1 {
+  position: relative;
+  margin-top: 6rem;
+  display: flex;
+  padding-left: 5.5rem;
+}
+.presentation__content-cards--imgs .imgProduct-1 .imgProduct__shoes {
+  width: 290px;
+}
+.presentation__content-cards--imgs .imgProduct-1 .imgProduct__card {
+  background-color: white;
+}
+.presentation__content-cards--imgs .imgProduct-1 .imgProduct__card--badge-green {
+  position: absolute;
+  background-color: #70c217;
+  right: 11.5rem;
+}
+.presentation__content-cards--imgs .imgProduct-1 .imgProduct__card--badge-orange {
+  position: absolute;
+  background-color: #ffba49;
+  bottom: 0.5rem;
+}
+.presentation__content-cards--imgs .imgProduct-1 .imgProduct__card--badge-photo {
+  position: absolute;
+  top: 1rem;
+  right: 15rem;
+}
+.presentation__content-cards--imgs .imgProduct-1 .imgProduct__card--badge-photo .badgePhoto {
+  border-radius: 20px;
+  width: 11rem;
+}
+.presentation__content-cards--imgs .imgProduct-1 .imgProduct__card--badge-pay {
+  position: absolute;
+  bottom: -15rem;
+  right: -3rem;
+}
+.presentation__content-cards--imgs .imgProduct-1 .imgProduct__card--badge-pay .badgePay {
+  border-radius: 20px;
+  width: 19rem;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,95 @@
+.presentation {
+  &__background {
+    background-image: url("../assets/img/Vector.svg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+  }
+  &__content {
+    padding-top: 7rem;
+    display: flex;
+    margin-left: 12%;
+    &-text {
+      width: 50%;
+      padding-top: 4rem;
+      min-width: 50%;
+    }
+    &-title {
+      font-family: "Circular Std", sans-serif;
+      color: $secondColor;
+      font-size: 3.5rem;
+      font-weight: bold;
+    }
+    &-description {
+      color: $thirdColor;
+      font-weight: 400;
+    }
+    &-cards {
+      display: flex;
+      &--imgs {
+        .imgPoint-1 {
+          width: 170px;
+          position: absolute;
+          right: 0;
+          bottom: 0;
+        }
+        .imgPoint-2 {
+          width: 370px;
+          position: absolute;
+          top: 13rem;
+          right: 11rem;
+        }
+        .imgPoint-3 {
+          width: 170px;
+          position: absolute;
+          top: 6rem;
+          right: 8rem;
+        }
+        .imgProduct-1 {
+          position: relative;
+          margin-top: 6rem;
+          display: flex;
+          padding-left: 5.5rem;
+
+          .imgProduct__shoes {
+            width: 290px;
+          }
+          .imgProduct__card {
+            background-color: white;
+            &--badge {
+              &-green {
+                position: absolute;
+                background-color: #70c217;
+                right: 11.5rem;
+              }
+              &-orange {
+                position: absolute;
+                background-color: #ffba49;
+                bottom: 0.5rem;
+              }
+              &-photo {
+                position: absolute;
+                top: 1rem;
+                right: 15rem;
+                .badgePhoto {
+                  border-radius: 20px;
+                  width: 11rem;
+                }
+              }
+              &-pay {
+                position: absolute;
+                bottom: -15rem;
+                right: -3rem;
+                .badgePay {
+                  border-radius: 20px;
+                  width: 19rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
