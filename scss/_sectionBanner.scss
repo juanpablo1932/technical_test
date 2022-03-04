@@ -1,0 +1,26 @@
+.banner {
+  background-color: #5f37ef;
+  display: flex;
+  padding: 3rem 15rem;
+  justify-content: space-evenly;
+  p {
+    margin-bottom: 0 !important;
+    color: white;
+    font-size: 20px;
+
+    span {
+      font-weight: bold;
+      font-size: 22px;
+      font-weight: 700;
+    }
+  }
+  button {
+    background-color: transparent;
+    border-color: white;
+    border-radius: 60px;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 10px 2rem;
+  }
+}
