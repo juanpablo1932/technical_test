@@ -1,0 +1,137 @@
+.storeOwners {
+  font-family: "Circular Std", sans-serif;
+  //   background-color: red;
+  position: relative;
+  //   z-index: -1;
+  background: linear-gradient(
+    180deg,
+    rgba(236, 240, 253, 0) 0%,
+    rgba(236, 240, 253, 0.53) 14.32%,
+    #ecf0fd 45.83%,
+    rgba(236, 240, 253, 0.43) 84.33%,
+    rgba(236, 240, 253, 0) 100%
+  );
+  &__content--title {
+    text-align: center;
+    margin-top: 8rem;
+    color: $secondColor;
+  }
+  &__card {
+    width: 35%;
+    margin: 5rem auto;
+    background-color: white;
+    position: relative;
+    // z-index: 2;
+    border-radius: 20px;
+    box-shadow: 0px 30px 1px -12px #d7e4f980;
+
+    .imgComillas {
+      position: absolute;
+      top: 1rem;
+      left: 0;
+      right: 0;
+      //   bottom: 0;
+      margin: auto;
+
+      width: 10rem;
+    }
+    &--txt {
+      position: relative;
+
+      color: $thirdColor;
+      text-align: center;
+      padding: 4rem;
+      line-height: 1.5rem;
+    }
+    &-badge1 {
+      position: absolute;
+      right: 30rem;
+      top: -5rem;
+      .card-badge1 {
+        width: 5rem;
+      }
+    }
+    &-badge2 {
+      position: absolute;
+      left: -15rem;
+      bottom: -6.5rem;
+
+      .card-badge2 {
+        width: 3rem;
+      }
+    }
+    &-badge3 {
+      position: absolute;
+      left: -20rem;
+      bottom: 8rem;
+
+      .card-badge3 {
+        width: 3rem;
+      }
+    }
+    &-badge4 {
+      position: absolute;
+      right: -19rem;
+      top: 9rem;
+      .card-badge4 {
+        width: 6rem;
+      }
+    }
+    &-badge5 {
+      position: absolute;
+      top: -5rem;
+      right: -10rem;
+
+      .card-badge5 {
+        width: 5rem;
+      }
+    }
+    &-badge6 {
+      position: absolute;
+      right: -10rem;
+      bottom: -8rem;
+
+      .card-badge6 {
+        width: 3rem;
+      }
+    }
+    &-badge7 {
+      position: absolute;
+      left: 4rem;
+      bottom: -8rem;
+      z-index: -1;
+
+      .card-badge7 {
+        width: 20rem;
+      }
+    }
+    &-badge8 {
+      position: absolute;
+      right: -17rem;
+      bottom: 2.5rem;
+      z-index: -1;
+
+      .card-badge8 {
+        width: 20rem;
+      }
+    }
+    &-badge9 {
+      position: absolute;
+      left: 20rem;
+      bottom: -3rem;
+
+      .card-badge9 {
+        width: 1rem;
+      }
+    }
+    &-badge10 {
+      position: absolute;
+      left: 22rem;
+      bottom: -3.3rem;
+
+      .card-badge10 {
+        width: 2rem;
+      }
+    }
+  }
+}
