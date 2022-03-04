@@ -23,68 +23,155 @@
     }
     &-description {
       color: $thirdColor;
-      font-weight: 400;
+      font-weight: 600;
+      font-size: 13px;
+      padding: 1rem 0;
+    }
+    &-btn {
+      background-color: $primaryColor;
+      border: none;
+      font-size: 14px;
+      width: 12rem;
+      padding: 1rem 0.5rem;
+      border-radius: 2rem;
+      color: white;
+      font-weight: bolder;
+    }
+    &-extend {
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      span {
+        color: $thirdColor;
+      }
     }
     &-cards {
-      display: flex;
+      width: 50%;
       &--imgs {
+        position: relative;
         .imgPoint-1 {
-          width: 170px;
+          width: 10.625rem;
           position: absolute;
           right: 0;
-          bottom: 0;
+          bottom: -12rem;
         }
         .imgPoint-2 {
-          width: 370px;
+          width: 23.125rem;
           position: absolute;
-          top: 13rem;
-          right: 11rem;
+          top: 6.5rem;
+          left: 1rem;
         }
         .imgPoint-3 {
-          width: 170px;
+          width: 10.625rem;
           position: absolute;
-          top: 6rem;
-          right: 8rem;
+          top: 0;
+          right: 7rem;
         }
-        .imgProduct-1 {
-          position: relative;
-          margin-top: 6rem;
-          display: flex;
-          padding-left: 5.5rem;
 
-          .imgProduct__shoes {
-            width: 290px;
+        .shoes-card {
+          display: flex;
+          .imgProduct-1 {
+            position: relative;
+            margin-top: 6rem;
+            display: flex;
+            padding-left: 70px;
+
+            .imgProduct__shoes {
+              width: 20rem;
+            }
+
+            .imgProduct__card--badge-green {
+              position: absolute;
+              background-color: #70c217;
+              right: 2rem;
+            }
+            .imgProduct__card--badge-orange {
+              position: absolute;
+              background-color: #ffba49;
+              bottom: 2rem;
+            }
+            .imgProduct__card--badge-photo {
+              position: absolute;
+              top: 0;
+              right: 3rem;
+              .badgePhoto {
+                border-radius: 20px;
+                width: 13rem;
+              }
+            }
+            .imgProduct__card--badge-pay {
+              position: absolute;
+              bottom: -16rem;
+              right: -15rem;
+              .badgePay {
+                border-radius: 20px;
+                width: 20rem;
+              }
+            }
           }
           .imgProduct__card {
             background-color: white;
-            &--badge {
-              &-green {
-                position: absolute;
-                background-color: #70c217;
-                right: 11.5rem;
+            margin-top: 6rem;
+            z-index: 1;
+            font-family: "Circular Std";
+            padding-left: 2rem;
+            width: 100%;
+            p {
+              font-size: 10px;
+              margin: 1.5rem 0;
+              color: $secondColor;
+              span {
+                color: $thirdColor;
               }
-              &-orange {
-                position: absolute;
-                background-color: #ffba49;
-                bottom: 0.5rem;
+            }
+            h2 {
+              font-size: 15px;
+              text-align: left;
+              font-weight: normal !important;
+            }
+            &-btn {
+              display: flex;
+              justify-content: space-evenly;
+              padding-top: 2rem;
+              button {
+                color: #868686;
+                background-color: #f6f6f6;
+                border-radius: 5px;
+                border: none;
+                font-size: 8px;
+                width: 20px;
+                height: 20px;
               }
-              &-photo {
-                position: absolute;
-                top: 1rem;
-                right: 15rem;
-                .badgePhoto {
-                  border-radius: 20px;
-                  width: 11rem;
+            }
+            &--addCart {
+              display: flex;
+              height: 4rem;
+              align-items: center;
+              justify-content: space-between;
+              margin-top: 1.5rem;
+              div {
+                width: 40%;
+                text-align: right;
+                padding-right: 20px;
+                line-height: 1px;
+                .price_1 {
+                  color: $primaryColor;
+                  font-size: 1rem;
+                }
+                .price_2 {
+                  color: #868686;
+                  text-decoration: line-through;
                 }
               }
-              &-pay {
-                position: absolute;
-                bottom: -15rem;
-                right: -3rem;
-                .badgePay {
-                  border-radius: 20px;
-                  width: 19rem;
-                }
+              .counter {
+                background-color: #f6f6f6;
+                width: 60%;
+                border: none;
+                font-size: 11px;
+                justify-content: space-around;
+                display: flex;
+                height: 2rem;
+                align-items: center;
               }
             }
           }
