@@ -1,0 +1,132 @@
+.madeSimple {
+  padding-top: 4rem;
+  width: 100%;
+  &__title {
+    color: $secondColor;
+    font-family: "Circular Std", sans-serif;
+    text-align: center;
+    h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+  }
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    // padding-left: 4rem;
+    justify-content: center;
+    &--top {
+      width: 30%;
+      text-align: center;
+    }
+    &--imgTop {
+      position: relative;
+      .imgTop {
+        width: 90%;
+      }
+      &-badge1 {
+        position: absolute;
+        left: 1rem;
+        top: 3rem;
+        .imgTop-badge1 {
+          width: 90%;
+        }
+      }
+      &-badge2 {
+        position: absolute;
+        left: 3rem;
+        top: 10rem;
+        .imgTop-badge2 {
+          width: 12rem;
+        }
+      }
+    }
+
+    &--mid {
+      width: 30%;
+      margin-top: 3.5rem;
+      text-align: center;
+    }
+    &--imgMid {
+      position: relative;
+      .imgMid {
+        width: 90%;
+      }
+      &-badge1 {
+        position: absolute;
+        left: 8rem;
+        top: 2rem;
+        .imgMid-badge1 {
+          width: 8rem;
+        }
+      }
+      &-badge2 {
+        position: absolute;
+        left: 17rem;
+        top: 4.5rem;
+        .imgMid-badge2 {
+          width: 8rem;
+        }
+      }
+      &-badge3 {
+        position: absolute;
+        left: 7rem;
+        top: 8rem;
+        .imgMid-badge3 {
+          width: 8rem;
+        }
+      }
+      &-badge4 {
+        position: absolute;
+        left: 11rem;
+        bottom: -5.5rem;
+        .imgMid-badge4 {
+          width: 8rem;
+        }
+      }
+      &-badge5 {
+        position: absolute;
+        left: 14rem;
+        top: 9rem;
+        .imgMid-badge5 {
+          width: 8rem;
+        }
+      }
+    }
+    &--bot {
+      width: 30%;
+      margin-top: 7rem;
+      text-align: center;
+    }
+    &--imgBot {
+      position: relative;
+      .imgBot {
+        width: 90%;
+      }
+      &-badge1 {
+        position: absolute;
+        right: -6rem;
+        top: 8rem;
+        .imgBot-badge1 {
+          width: 9rem;
+        }
+      }
+      &-badge2 {
+        position: absolute;
+        left: 7rem;
+        top: 2rem;
+        .imgBot-badge2 {
+          width: 8rem;
+        }
+      }
+      &-badge3 {
+        position: absolute;
+        left: 17rem;
+        top: -1rem;
+        .imgBot-badge3 {
+          width: 8rem;
+        }
+      }
+    }
+  }
+}
