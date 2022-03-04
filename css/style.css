@@ -538,4 +538,120 @@ body {
   padding-left: 11rem;
 }
 
+.storeOwners {
+  font-family: "Circular Std", sans-serif;
+  position: relative;
+  background: linear-gradient(180deg, rgba(236, 240, 253, 0) 0%, rgba(236, 240, 253, 0.53) 14.32%, #ecf0fd 45.83%, rgba(236, 240, 253, 0.43) 84.33%, rgba(236, 240, 253, 0) 100%);
+}
+.storeOwners__content--title {
+  text-align: center;
+  margin-top: 8rem;
+  color: #272d4e;
+}
+.storeOwners__card {
+  width: 35%;
+  margin: 5rem auto;
+  background-color: white;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0px 30px 1px -12px #d7e4f980;
+}
+.storeOwners__card .imgComillas {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 10rem;
+}
+.storeOwners__card--txt {
+  position: relative;
+  color: #94a2b3;
+  text-align: center;
+  padding: 4rem;
+  line-height: 1.5rem;
+}
+.storeOwners__card-badge1 {
+  position: absolute;
+  right: 30rem;
+  top: -5rem;
+}
+.storeOwners__card-badge1 .card-badge1 {
+  width: 5rem;
+}
+.storeOwners__card-badge2 {
+  position: absolute;
+  left: -15rem;
+  bottom: -6.5rem;
+}
+.storeOwners__card-badge2 .card-badge2 {
+  width: 3rem;
+}
+.storeOwners__card-badge3 {
+  position: absolute;
+  left: -20rem;
+  bottom: 8rem;
+}
+.storeOwners__card-badge3 .card-badge3 {
+  width: 3rem;
+}
+.storeOwners__card-badge4 {
+  position: absolute;
+  right: -19rem;
+  top: 9rem;
+}
+.storeOwners__card-badge4 .card-badge4 {
+  width: 6rem;
+}
+.storeOwners__card-badge5 {
+  position: absolute;
+  top: -5rem;
+  right: -10rem;
+}
+.storeOwners__card-badge5 .card-badge5 {
+  width: 5rem;
+}
+.storeOwners__card-badge6 {
+  position: absolute;
+  right: -10rem;
+  bottom: -8rem;
+}
+.storeOwners__card-badge6 .card-badge6 {
+  width: 3rem;
+}
+.storeOwners__card-badge7 {
+  position: absolute;
+  left: 4rem;
+  bottom: -8rem;
+  z-index: -1;
+}
+.storeOwners__card-badge7 .card-badge7 {
+  width: 20rem;
+}
+.storeOwners__card-badge8 {
+  position: absolute;
+  right: -17rem;
+  bottom: 2.5rem;
+  z-index: -1;
+}
+.storeOwners__card-badge8 .card-badge8 {
+  width: 20rem;
+}
+.storeOwners__card-badge9 {
+  position: absolute;
+  left: 20rem;
+  bottom: -3rem;
+}
+.storeOwners__card-badge9 .card-badge9 {
+  width: 1rem;
+}
+.storeOwners__card-badge10 {
+  position: absolute;
+  left: 22rem;
+  bottom: -3.3rem;
+}
+.storeOwners__card-badge10 .card-badge10 {
+  width: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
