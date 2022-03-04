@@ -1,0 +1,75 @@
+.support__content {
+  width: 80%;
+  margin: auto;
+  padding-top: 9rem;
+  text-align: center;
+  &--title {
+    font-family: "Circular Std", sans-serif;
+    color: $secondColor;
+    font-size: 40px;
+  }
+  &--txt {
+    color: $thirdColor;
+    font-size: 11.5px;
+    font-weight: 600;
+    padding-top: 1rem;
+  }
+  &--img {
+    position: relative;
+    .imgContent {
+      width: 100%;
+      position: relative;
+      z-index: 2;
+    }
+    &-badge1 {
+      position: absolute;
+      bottom: -10rem;
+      left: 31.5rem;
+      z-index: -1;
+
+      .support-badge1 {
+        width: 55rem;
+      }
+    }
+    &-badge2 {
+      position: absolute;
+      top: 5rem;
+      left: -2rem;
+      z-index: -1;
+
+      .support-badge2 {
+        width: 3rem;
+      }
+    }
+    &-badge3 {
+      position: absolute;
+      top: 10rem;
+      left: 0rem;
+      z-index: -1;
+
+      .support-badge3 {
+        width: 2rem;
+      }
+    }
+    &-badge4 {
+      position: absolute;
+      top: 0rem;
+      right: 0rem;
+      z-index: -1;
+
+      .support-badge4 {
+        width: 1rem;
+      }
+    }
+    &-badge5 {
+      position: absolute;
+      top: 10rem;
+      right: -12rem;
+      z-index: -1;
+
+      .support-badge5 {
+        width: 12rem;
+      }
+    }
+  }
+}

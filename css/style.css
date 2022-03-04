@@ -547,6 +547,7 @@ body {
   text-align: center;
   margin-top: 8rem;
   color: #272d4e;
+  font-size: 40px;
 }
 .storeOwners__card {
   width: 35%;
@@ -652,6 +653,77 @@ body {
 }
 .storeOwners__card-badge10 .card-badge10 {
   width: 2rem;
+}
+
+.support__content {
+  width: 80%;
+  margin: auto;
+  padding-top: 9rem;
+  text-align: center;
+}
+.support__content--title {
+  font-family: "Circular Std", sans-serif;
+  color: #272d4e;
+  font-size: 40px;
+}
+.support__content--txt {
+  color: #94a2b3;
+  font-size: 11.5px;
+  font-weight: 600;
+  padding-top: 1rem;
+}
+.support__content--img {
+  position: relative;
+}
+.support__content--img .imgContent {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+.support__content--img-badge1 {
+  position: absolute;
+  bottom: -10rem;
+  left: 31.5rem;
+  z-index: -1;
+}
+.support__content--img-badge1 .support-badge1 {
+  width: 55rem;
+}
+.support__content--img-badge2 {
+  position: absolute;
+  top: 5rem;
+  left: -2rem;
+  z-index: -1;
+}
+.support__content--img-badge2 .support-badge2 {
+  width: 3rem;
+}
+.support__content--img-badge3 {
+  position: absolute;
+  top: 10rem;
+  left: 0rem;
+  z-index: -1;
+}
+.support__content--img-badge3 .support-badge3 {
+  width: 2rem;
+}
+.support__content--img-badge4 {
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  z-index: -1;
+}
+.support__content--img-badge4 .support-badge4 {
+  width: 1rem;
+}
+.support__content--img-badge5 {
+  position: absolute;
+  top: 10rem;
+  right: -12rem;
+  z-index: -1;
+}
+.support__content--img-badge5 .support-badge5 {
+  width: 12rem;
 }
 
 /*# sourceMappingURL=style.css.map */
