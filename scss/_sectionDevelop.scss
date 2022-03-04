@@ -1,0 +1,123 @@
+.develop {
+  margin-top: 4rem;
+}
+.develop__background {
+  background-size: cover;
+  background-image: url("../assets/img/imgDevelop/Rectangle\ 234.svg");
+  &-icon {
+    background-image: url("../assets/img/imgDevelop/Union.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 30rem 20rem;
+  }
+  &-cards {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    h3 {
+      font-family: "Circular Std", sans-serif;
+      color: white;
+    }
+    p {
+      color: white;
+      line-height: 1.5rem;
+      font-size: 14px;
+    }
+    button {
+      background-color: #70c217;
+      border: none;
+      color: white;
+      font-weight: 600;
+      font-size: 15px;
+      padding: 1rem 1.5rem;
+      border-radius: 60px;
+    }
+  }
+}
+
+.develop__card-1 {
+  display: flex;
+
+  .develop__card-1-img {
+    position: relative;
+    .imgGirl {
+      width: 23rem;
+      position: relative;
+      z-index: 3;
+    }
+    &-badge1 {
+      position: absolute;
+      left: 0rem;
+      top: 8rem;
+      .card-1-badge1 {
+        width: 2rem;
+      }
+    }
+    &-badge2 {
+      position: absolute;
+      left: 6rem;
+      bottom: -8rem;
+      z-index: 2;
+      .card-1-badge2 {
+        width: 15rem;
+      }
+    }
+    &-badge3 {
+      position: absolute;
+      left: 4rem;
+      bottom: -25rem;
+      z-index: 2;
+      .card-1-badge3 {
+        width: 10rem;
+      }
+    }
+  }
+  .develop__card-1-txt {
+    margin: auto 0;
+    padding-left: 2rem;
+    padding-right: 9rem;
+  }
+}
+.develop__card-2 {
+  display: flex;
+
+  .develop__card-2-img {
+    position: relative;
+    .imgMeet {
+      width: 23rem;
+      position: relative;
+      z-index: 3;
+    }
+    &-badge1 {
+      position: absolute;
+      left: 8rem;
+      top: 1.5rem;
+      z-index: 4;
+      .card-2-badge1 {
+        width: 3rem;
+      }
+    }
+    &-badge2 {
+      position: absolute;
+      right: -10rem;
+      top: 5rem;
+      z-index: 2;
+      .card-2-badge2 {
+        width: 10rem;
+      }
+    }
+    &-badge3 {
+      position: absolute;
+      right: -17.5rem;
+      bottom: 6rem;
+      z-index: 2;
+      .card-2-badge3 {
+        width: 20rem;
+      }
+    }
+  }
+  .develop__card-2-txt {
+    margin: auto 0;
+    padding-right: 2rem;
+    padding-left: 11rem;
+  }
+}

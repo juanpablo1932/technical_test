@@ -8,6 +8,7 @@ body {
   font-family: "Roboto", sans-serif;
   background: linear-gradient(180deg, #e5efff 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar {
@@ -411,6 +412,130 @@ body {
   font-size: 11.5px;
   font-weight: 600;
   color: #299ef3;
+}
+
+.develop {
+  margin-top: 4rem;
+}
+
+.develop__background {
+  background-size: cover;
+  background-image: url("../assets/img/imgDevelop/Rectangle 234.svg");
+}
+.develop__background-icon {
+  background-image: url("../assets/img/imgDevelop/Union.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 30rem 20rem;
+}
+.develop__background-cards {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.develop__background-cards h3 {
+  font-family: "Circular Std", sans-serif;
+  color: white;
+}
+.develop__background-cards p {
+  color: white;
+  line-height: 1.5rem;
+  font-size: 14px;
+}
+.develop__background-cards button {
+  background-color: #70c217;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 1rem 1.5rem;
+  border-radius: 60px;
+}
+
+.develop__card-1 {
+  display: flex;
+}
+.develop__card-1 .develop__card-1-img {
+  position: relative;
+}
+.develop__card-1 .develop__card-1-img .imgGirl {
+  width: 23rem;
+  position: relative;
+  z-index: 3;
+}
+.develop__card-1 .develop__card-1-img-badge1 {
+  position: absolute;
+  left: 0rem;
+  top: 8rem;
+}
+.develop__card-1 .develop__card-1-img-badge1 .card-1-badge1 {
+  width: 2rem;
+}
+.develop__card-1 .develop__card-1-img-badge2 {
+  position: absolute;
+  left: 6rem;
+  bottom: -8rem;
+  z-index: 2;
+}
+.develop__card-1 .develop__card-1-img-badge2 .card-1-badge2 {
+  width: 15rem;
+}
+.develop__card-1 .develop__card-1-img-badge3 {
+  position: absolute;
+  left: 4rem;
+  bottom: -25rem;
+  z-index: 2;
+}
+.develop__card-1 .develop__card-1-img-badge3 .card-1-badge3 {
+  width: 10rem;
+}
+.develop__card-1 .develop__card-1-txt {
+  margin: auto 0;
+  padding-left: 2rem;
+  padding-right: 9rem;
+}
+
+.develop__card-2 {
+  display: flex;
+}
+.develop__card-2 .develop__card-2-img {
+  position: relative;
+}
+.develop__card-2 .develop__card-2-img .imgMeet {
+  width: 23rem;
+  position: relative;
+  z-index: 3;
+}
+.develop__card-2 .develop__card-2-img-badge1 {
+  position: absolute;
+  left: 8rem;
+  top: 1.5rem;
+  z-index: 4;
+}
+.develop__card-2 .develop__card-2-img-badge1 .card-2-badge1 {
+  width: 3rem;
+}
+.develop__card-2 .develop__card-2-img-badge2 {
+  position: absolute;
+  right: -10rem;
+  top: 5rem;
+  z-index: 2;
+}
+.develop__card-2 .develop__card-2-img-badge2 .card-2-badge2 {
+  width: 10rem;
+}
+.develop__card-2 .develop__card-2-img-badge3 {
+  position: absolute;
+  right: -17.5rem;
+  bottom: 6rem;
+  z-index: 2;
+}
+.develop__card-2 .develop__card-2-img-badge3 .card-2-badge3 {
+  width: 20rem;
+}
+.develop__card-2 .develop__card-2-txt {
+  margin: auto 0;
+  padding-right: 2rem;
+  padding-left: 11rem;
 }
 
 /*# sourceMappingURL=style.css.map */
