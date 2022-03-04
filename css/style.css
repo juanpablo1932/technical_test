@@ -249,4 +249,135 @@ body {
   align-items: center;
 }
 
+.madeSimple {
+  padding-top: 4rem;
+  width: 100%;
+}
+.madeSimple__title {
+  color: #272d4e;
+  font-family: "Circular Std", sans-serif;
+  text-align: center;
+}
+.madeSimple__title h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.madeSimple__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.madeSimple__cards--top {
+  width: 30%;
+  text-align: center;
+}
+.madeSimple__cards--imgTop {
+  position: relative;
+}
+.madeSimple__cards--imgTop .imgTop {
+  width: 90%;
+}
+.madeSimple__cards--imgTop-badge1 {
+  position: absolute;
+  left: 1rem;
+  top: 3rem;
+}
+.madeSimple__cards--imgTop-badge1 .imgTop-badge1 {
+  width: 90%;
+}
+.madeSimple__cards--imgTop-badge2 {
+  position: absolute;
+  left: 3rem;
+  top: 10rem;
+}
+.madeSimple__cards--imgTop-badge2 .imgTop-badge2 {
+  width: 12rem;
+}
+.madeSimple__cards--mid {
+  width: 30%;
+  margin-top: 3.5rem;
+  text-align: center;
+}
+.madeSimple__cards--imgMid {
+  position: relative;
+}
+.madeSimple__cards--imgMid .imgMid {
+  width: 90%;
+}
+.madeSimple__cards--imgMid-badge1 {
+  position: absolute;
+  left: 8rem;
+  top: 2rem;
+}
+.madeSimple__cards--imgMid-badge1 .imgMid-badge1 {
+  width: 8rem;
+}
+.madeSimple__cards--imgMid-badge2 {
+  position: absolute;
+  left: 17rem;
+  top: 4.5rem;
+}
+.madeSimple__cards--imgMid-badge2 .imgMid-badge2 {
+  width: 8rem;
+}
+.madeSimple__cards--imgMid-badge3 {
+  position: absolute;
+  left: 7rem;
+  top: 8rem;
+}
+.madeSimple__cards--imgMid-badge3 .imgMid-badge3 {
+  width: 8rem;
+}
+.madeSimple__cards--imgMid-badge4 {
+  position: absolute;
+  left: 11rem;
+  bottom: -5.5rem;
+}
+.madeSimple__cards--imgMid-badge4 .imgMid-badge4 {
+  width: 8rem;
+}
+.madeSimple__cards--imgMid-badge5 {
+  position: absolute;
+  left: 14rem;
+  top: 9rem;
+}
+.madeSimple__cards--imgMid-badge5 .imgMid-badge5 {
+  width: 8rem;
+}
+.madeSimple__cards--bot {
+  width: 30%;
+  margin-top: 7rem;
+  text-align: center;
+}
+.madeSimple__cards--imgBot {
+  position: relative;
+}
+.madeSimple__cards--imgBot .imgBot {
+  width: 90%;
+}
+.madeSimple__cards--imgBot-badge1 {
+  position: absolute;
+  right: -6rem;
+  top: 8rem;
+}
+.madeSimple__cards--imgBot-badge1 .imgBot-badge1 {
+  width: 9rem;
+}
+.madeSimple__cards--imgBot-badge2 {
+  position: absolute;
+  left: 7rem;
+  top: 2rem;
+}
+.madeSimple__cards--imgBot-badge2 .imgBot-badge2 {
+  width: 8rem;
+}
+.madeSimple__cards--imgBot-badge3 {
+  position: absolute;
+  left: 17rem;
+  top: -1rem;
+}
+.madeSimple__cards--imgBot-badge3 .imgBot-badge3 {
+  width: 8rem;
+}
+
 /*# sourceMappingURL=style.css.map */
