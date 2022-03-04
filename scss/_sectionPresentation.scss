@@ -41,6 +41,7 @@
       text-decoration: none;
       font-size: 14px;
       font-weight: 600;
+      color: #299ef3;
       span {
         color: $thirdColor;
       }
@@ -83,12 +84,20 @@
             .imgProduct__card--badge-green {
               position: absolute;
               background-color: #70c217;
-              right: 2rem;
+              right: -1.5rem;
+              padding: 1rem 1.5rem;
+              letter-spacing: 8px;
+              border-radius: 2rem;
             }
             .imgProduct__card--badge-orange {
               position: absolute;
               background-color: #ffba49;
-              bottom: 2rem;
+              bottom: 0rem;
+              border-radius: 100%;
+              i {
+                font-size: 1.3rem;
+                padding: 10px;
+              }
             }
             .imgProduct__card--badge-photo {
               position: absolute;

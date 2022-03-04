@@ -114,6 +114,7 @@ body {
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
+  color: #299ef3;
 }
 .presentation__content-extend span {
   color: #94a2b3;
@@ -157,12 +158,20 @@ body {
 .presentation__content-cards--imgs .shoes-card .imgProduct-1 .imgProduct__card--badge-green {
   position: absolute;
   background-color: #70c217;
-  right: 2rem;
+  right: -1.5rem;
+  padding: 1rem 1.5rem;
+  letter-spacing: 8px;
+  border-radius: 2rem;
 }
 .presentation__content-cards--imgs .shoes-card .imgProduct-1 .imgProduct__card--badge-orange {
   position: absolute;
   background-color: #ffba49;
-  bottom: 2rem;
+  bottom: 0rem;
+  border-radius: 100%;
+}
+.presentation__content-cards--imgs .shoes-card .imgProduct-1 .imgProduct__card--badge-orange i {
+  font-size: 1.3rem;
+  padding: 10px;
 }
 .presentation__content-cards--imgs .shoes-card .imgProduct-1 .imgProduct__card--badge-photo {
   position: absolute;
@@ -378,6 +387,30 @@ body {
 }
 .madeSimple__cards--imgBot-badge3 .imgBot-badge3 {
   width: 8rem;
+}
+.madeSimple__cards--text {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: left;
+}
+.madeSimple__cards--text h3 {
+  font-family: "Circular Std", sans-serif;
+  color: #272d4e;
+  font-size: 25px;
+}
+.madeSimple__cards--text p {
+  color: #94a2b3;
+  font-size: 11.5px;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+.madeSimple__cards--text a {
+  text-decoration: none;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #299ef3;
 }
 
 /*# sourceMappingURL=style.css.map */
