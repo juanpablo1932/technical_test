@@ -3,6 +3,7 @@
   display: flex;
   padding: 3rem 15rem;
   justify-content: space-evenly;
+  position: relative;
   p {
     margin-bottom: 0 !important;
     color: white;
@@ -22,5 +23,17 @@
     font-weight: 700;
     font-size: 13px;
     padding: 10px 2rem;
+  }
+  &__img {
+    &--badge {
+      position: absolute;
+      bottom: -4rem;
+      left: 75rem;
+      z-index: 2;
+
+      .banner-badge {
+        width: 4rem;
+      }
+    }
   }
 }
