@@ -1,3 +1,4 @@
+/* Start - Global Style */
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,8 @@ body {
   background-size: cover;
 }
 
+/* End - Global Style */
+/* Start - NavBar Style */
 .navbar {
   font-size: 14px;
 }
@@ -72,6 +75,8 @@ body {
   color: #272d4e;
 }
 
+/* End - NavBar Style */
+/* Start - Presentation Style */
 .presentation__background {
   background-image: url("../assets/img/Vector.svg");
   background-repeat: no-repeat;
@@ -276,6 +281,8 @@ body {
   padding: 10px 30px 10px 50px;
 }
 
+/* End - Presentation Style */
+/* Start - MadeSimple Style */
 .madeSimple {
   padding-top: 4rem;
   width: 100%;
@@ -432,6 +439,8 @@ body {
   color: #299ef3;
 }
 
+/* End - MadeSimple Style */
+/* Start - Develop Style */
 .develop {
   margin-top: 4rem;
 }
@@ -556,6 +565,8 @@ body {
   padding-left: 11rem;
 }
 
+/* End - Develop Style */
+/* Start - StoreOwners Style */
 .storeOwners {
   font-family: "Circular Std", sans-serif;
   position: relative;
@@ -673,6 +684,8 @@ body {
   width: 2rem;
 }
 
+/* End - StoreOwners Style */
+/* Start - Support Style */
 .support__content {
   width: 80%;
   margin: auto;
@@ -744,6 +757,8 @@ body {
   width: 12rem;
 }
 
+/* End - Support Style */
+/* Start - Banner Style */
 .banner {
   background-color: #5f37ef;
   display: flex;
@@ -780,6 +795,8 @@ body {
   width: 4rem;
 }
 
+/* End - Banner Style */
+/* Start - Footer Style */
 .footer {
   background-color: #7854f7;
   color: white;
@@ -863,6 +880,8 @@ body {
   font-weight: 700;
 }
 
+/* End - Footer Style */
+/* Start - Responsive Style */
 @media all and (max-width: 991.98px) {
   .presentation__content-cards {
     display: none;
@@ -1085,5 +1104,6 @@ body {
     font-size: 15px;
   }
 }
+/* End - Responsive Style */
 
 /*# sourceMappingURL=style.css.map */
