@@ -192,6 +192,15 @@ body {
   border-radius: 20px;
   width: 20rem;
 }
+.presentation__content-cards--imgs .shoes-card .imgProduct-1 .imgProduct__card--badge-safe {
+  position: absolute;
+  bottom: -3rem;
+  right: -9.8rem;
+  z-index: 2;
+}
+.presentation__content-cards--imgs .shoes-card .imgProduct-1 .imgProduct__card--badge-safe .badgeSafe {
+  width: 3.5rem;
+}
 .presentation__content-cards--imgs .shoes-card .imgProduct__card {
   background-color: white;
   margin-top: 6rem;
@@ -232,7 +241,7 @@ body {
   height: 4rem;
   align-items: center;
   justify-content: space-between;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 .presentation__content-cards--imgs .shoes-card .imgProduct__card--addCart div {
   width: 40%;
@@ -257,6 +266,15 @@ body {
   display: flex;
   height: 2rem;
   align-items: center;
+}
+.presentation__content-cards--imgs .shoes-card .imgProduct__card-btn--addCart {
+  background-color: #7854f7;
+  border: none;
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  right: 0;
+  padding: 10px 20px 10px 50px;
 }
 
 .madeSimple {
@@ -569,7 +587,7 @@ body {
   position: relative;
   color: #94a2b3;
   text-align: center;
-  padding: 4rem;
+  padding: 4rem 3rem;
   line-height: 1.5rem;
 }
 .storeOwners__card-badge1 {
@@ -731,6 +749,7 @@ body {
   display: flex;
   padding: 3rem 15rem;
   justify-content: space-evenly;
+  position: relative;
 }
 .banner p {
   margin-bottom: 0 !important;
@@ -750,6 +769,15 @@ body {
   font-weight: 700;
   font-size: 13px;
   padding: 10px 2rem;
+}
+.banner__img--badge {
+  position: absolute;
+  bottom: -4rem;
+  left: 75rem;
+  z-index: 2;
+}
+.banner__img--badge .banner-badge {
+  width: 4rem;
 }
 
 .footer {
